@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Slewfoot’s NFC Photo Log — Mission</title>
+  <meta name="description" content="Mission page for geocaching travel bug TBB2QBE: Slewfoot’s NFC Photo Log. Goal: visit every county in Michigan." />
+  <style>
+    :root{
+      --bg:#f7f8fb; --card:#fff; --ink:#0f172a; --muted:#6b7280; --brand:#0ea5e9;
+      --accent:#10b981; --line:#e5e7eb; --warn:#b91c1c;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,sans-serif;color:var(--ink);background:linear-gradient(#fafafb,#eef2f7)}
+    .wrap{max-width:900px;margin:0 auto;padding:28px}
+    header h1{margin:0 0 8px 0;font-size:clamp(28px,4vw,40px);line-height:1.1}
+    header p{margin:6px 0 0 0;color:var(--muted)}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px;margin:14px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+    h2{margin:0 0 10px 0;font-size:22px}
+    h3{margin:18px 0 10px 0;font-size:18px}
+    ul{margin:8px 0 0 22px}
+    .pill{display:inline-block;border:1px solid var(--line);padding:6px 10px;border-radius:999px;font-size:13px;color:#0b3b5b;background:#eef6ff}
+    .grid{display:grid;gap:12px}
+    .two{grid-template-columns:1fr; } @media(min-width:720px){ .two{grid-template-columns:1fr 1fr} }
+    .meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+    .button{display:inline-block;background:var(--brand);color:#fff;padding:10px 14px;border-radius:12px;text-decoration:none}
+    .button:hover{filter:brightness(.95)}
+    .muted{color:var(--muted)}
+    .note{font-size:13px;color:var(--muted)}
+    .callout{border-left:4px solid var(--accent);padding:10px 12px;background:#ecfdf5;border-radius:12px}
+    .warn{border-left:4px solid var(--warn);background:#fee2e2}
+    .cols{columns:2;column-gap:28px} @media(min-width:920px){ .cols{columns:3} }
+    details{border:1px solid var(--line);border-radius:14px;padding:10px 12px;background:#fff}
+    details summary{cursor:pointer;font-weight:600}
+    .progress{display:flex;align-items:center;gap:10px}
+    .bar{flex:1;height:10px;border-radius:999px;background:#e6edf3;overflow:hidden}
+    .fill{height:100%;background:linear-gradient(90deg,var(--accent),#22c55e)}
+    footer{margin:24px 0;color:var(--muted);font-size:13px;text-align:center}
+    .kbd{font-variant-ligatures:normal;border:1px solid var(--line);border-bottom-width:3px;padding:2px 6px;border-radius:8px;background:#f8fafc;font-size:12px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Slewfoot’s NFC Photo Log</h1>
+      <p>Geocaching Travel Bug • Public ID: <strong>TBB2QBE</strong></p>
+      <div class="meta">
+        <span class="pill">Mission: Visit every Michigan county</span>
+        <span class="pill">Photos encouraged 📸</span>
+        <span class="pill">Real-world discover only</span>
+      </div>
+    </header>
+
+    <section class="card">
+      <h2>Mission Brief</h2>
+      <p class="callout">
+        This Travel Bug loves the open road, small-town diners, lake breezes, and county line signs. The quest? <strong>Collect a snapshot in every Michigan county</strong>—from the mitt to the mighty U.P.—and stitch together a rolling photo album of the whole state.
+      </p>
+      <p>
+        Whether you found it in a micro under a park bench or a rugged ammo can near a trailhead, <em>please move it onward</em>. A quick photo + note helps the bug chart its story and proves the county visit.
+      </p>
+      <div class="grid two">
+        <div>
+          <h3>How to Participate</h3>
+          <ol>
+            <li>Discover the Travel Bug in a cache or at an event.</li>
+            <li>Scan the NFC tag (or visit the link) to open the Photo Log.</li>
+            <li>Post a photo and a short note about where you found it.</li>
+            <li>Drop it in another cache—ideally in a <strong>new county</strong>!</li>
+          </ol>
+        </div>
+        <div>
+          <h3>Goal &amp; Etiquette</h3>
+          <ul>
+            <li>Help it travel—don’t keep it more than ~2 weeks.</li>
+            <li>Prefer safe, public spots; avoid private property.</li>
+            <li>Photos: no faces of minors; keep locations general if sensitive.</li>
+            <li>Be kind to caches and the environment—leave no trace.</li>
+          </ul>
+        </div>
+      </div>
+      <p class="note">Note: The unlock code to post a photo is printed on the physical tag; it is <em>not</em> published here.</p>
+    </section>
+
+    <section class="card">
+      <h2>Post a Photo</h2>
+      <p>
+        If you’ve found the bug in the wild, head to the Photo Log page and add your snapshot. You’ll be asked for the 6-character code printed on the tag to confirm an in-person discovery.
+      </p>
+      <p>
+        <a class="button" href="/travel-bug-d98myp/" rel="noopener">Open the Photo Log</a>
+        <span class="note"> (or scan the NFC tag if you’re holding the TB)</span>
+      </p>
+      <div class="warn callout" style="margin-top:10px">
+        Please don’t share the unlock code publicly. This helps prevent “armchair” logs.
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>The Narrative</h2>
+      <p>
+        Born under the glow of a porch light and the buzz of summer cicadas, Slewfoot’s NFC Photo Log started with a simple idea: <em>could a tiny traveler capture the whole patchwork of Michigan, one county at a time?</em> The Lower Peninsula will offer harbor towns and farm fields stitched with rivers; the U.P. will bring iron, lighthouse beams, and long horizons. Each county adds a square to the quilt—your photo becomes a thread in the story.
+      </p>
+      <p>
+        Keep it moving like a Great Lakes freighter: steady and purposeful. If you can, nudge it toward a fresh county. Snap a picture of a landmark, a trailhead sign, a county line marker, or even a classic diner marquee. Add a line about the place or the weather that day. Over time, the gallery should feel like a road trip scrapbook you can flip through from Monroe to Marquette.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Progress</h2>
+      <!-- You can update the style width dynamically later if you track counts -->
+      <div class="progress">
+        <div class="bar"><div class="fill" style="width: 0%"></div></div>
+        <div class="note">0 / 83 counties</div>
+      </div>
+      <p class="note" style="margin-top:6px">Want to help? Move the TB into a county it hasn’t seen yet and add a photo.</p>
+      <details style="margin-top:12px">
+        <summary>See the full county checklist (83)</summary>
+        <div class="cols" style="margin-top:10px">
+          <!-- Lower Peninsula (selection) -->
+          Alcona<br/>Allegan<br/>Alpena<br/>Antrim<br/>Arenac<br/>Barry<br/>Bay<br/>Benzie<br/>Berrien<br/>Branch<br/>Calhoun<br/>Cass<br/>Charlevoix<br/>Cheboygan<br/>Clare<br/>Clinton<br/>Crawford<br/>Eaton<br/>Emmet<br/>Genesee<br/>Gladwin<br/>Grand Traverse<br/>Gratiot<br/>Hillsdale<br/>Huron<br/>Ingham<br/>Ionia<br/>Iosco<br/>Isabella<br/>Jackson<br/>Kalamazoo<br/>Kalkaska<br/>Kent<br/>Lapeer<br/>Leelanau<br/>Lenawee<br/>Livingston<br/>Macomb<br/>Manistee<br/>Marquette*<br/>Mason<br/>Mecosta<br/>Midland<br/>Missaukee<br/>Monroe<br/>Montcalm<br/>Montmorency<br/>Muskegon<br/>Newaygo<br/>Oakland<br/>Oceana<br/>Ogemaw<br/>Osceola<br/>Oscoda<br/>Otsego<br/>Ottawa<br/>Presque Isle<br/>Roscommon<br/>Saginaw<br/>Sanilac<br/>Shiawassee<br/>St. Clair<br/>St. Joseph<br/>Tuscola<br/>Van Buren<br/>Washtenaw<br/>Wayne<br/>Wexford<br/>
+          <!-- Upper Peninsula -->
+          Alger<br/>Baraga<br/>Chippewa<br/>Delta<br/>Dickinson<br/>Gogebic<br/>Houghton<br/>Iron<br/>Keweenaw<br/>Luce<br/>Mackinac<br/>Marquette*<br/>Menominee<br/>Ontonagon<br/>Schoolcraft<br/>
+        </div>
+        <p class="note">(*) Marquette appears once; listed among U.P. counties.</p>
+      </details>
+    </section>
+
+    <section class="card">
+      <h2>Traveler Specs</h2>
+      <div class="grid two">
+        <div>
+          <h3>Identity</h3>
+          <ul>
+            <li><strong>Travel Bug Name:</strong> Slewfoot’s NFC Photo Log</li>
+            <li><strong>Public TB ID:</strong> <span class="kbd">TBB2QBE</span></li>
+            <li><strong>Owner:</strong> Slewfoot</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Care & Handling</h3>
+          <ul>
+            <li>Keep it with the cache contents—don’t remove attached tags.</li>
+            <li>Avoid moisture and extreme heat; bag it if the cache is damp.</li>
+            <li>Move it along within ~14 days, preferably to a new county.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>FAQ</h2>
+      <h3>Do I need to show the TB code here?</h3>
+      <p>No. The code is printed on the physical tag and only used to unlock posting on the Photo Log page.</p>
+      <h3>Can I log a “virtual” find?</h3>
+      <p>Please don’t. This project is about real travel and real places—thanks!</p>
+      <h3>What should my photo include?</h3>
+      <p>Something place-flavored: a county line sign, a landmark, trailhead board, lake view, or local sign. No spoilers for cache hides, please.</p>
+    </section>
+
+    <footer>
+      © Slewfoot • Travel Bug TBB2QBE • Let’s see every Michigan county.
+    </footer>
+  </div>
+</body>
+</html>
